@@ -1,0 +1,27 @@
+.card {
+    height: 150px;
+    width: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 20px;
+    box-shadow: 2px 3px 1px #ccc;
+    cursor: pointer;
+    text-align: center;
+    transition: ease-in-out all 0.5s;
+
+    &.red {
+        background-color: #FF0000;
+        color: #fff;
+    }
+
+    &.yellow {
+        background-color: #ffde25;
+        color: #000;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,72 @@
+.team_container {
+    .placeholderImg {
+        width: 100%;
+        height: 140px;
+        margin-bottom: 30px;
+
+        @media (min-width: 768px) {
+            width: 240px;
+            margin-bottom: 0;
+        }
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .listIcon {
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        border-radius: 100%;
+        border: 1px solid #666;
+    }
+
+    .teamSection {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .teamlist { 
+            list-style-type: none;
+            padding: 0 !important;
+            margin: 0;
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+
+        strong {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+//animation
+.swing {
+    img {
+        border: 5px solid #f8f8f8;
+        display: block;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        transition: ease-in-out 3s;
+    }
+
+    &.animated {
+        transform: translate(0, 200px);
+    }
+}

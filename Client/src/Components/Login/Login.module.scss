@@ -1,0 +1,54 @@
+.login_container {
+    background-color: #cc0000;
+    padding: 20px;
+
+    .error_msg {
+        padding: 15px;
+        background: rgb(221, 85, 87);
+        font-size: 16px;
+        font-style: italic;
+        color: #fff;
+    }
+
+    .form_group {
+        margin: 30px 0 0;
+        
+        label {
+            font-size: 18px;
+            color: #FFF;
+            min-width: 100px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        input {
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+
+            @media (min-width: 768px) {
+                width: 300px;
+            }
+        }
+    }
+
+    .btn_container {
+        text-align: right;
+        margin-top: 30px;
+
+        button {
+            background-color: #cc9900;
+            border: 1px solid #775900;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 30px 3px;
+            font-size: 20px;
+            cursor: pointer;
+            
+            &:disabled {
+                opacity: 0.8;
+                cursor: not-allowed;
+            }
+        }
+    }
+}

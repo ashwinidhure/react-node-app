@@ -1,0 +1,48 @@
+
+.dashboard_container {
+    hr {
+        margin-top: 25px;
+        border-color: #ddd;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    h3 {
+        margin: 20px 0;
+        color: #cc0000;
+        font-size: 18px;
+    }
+
+    .dashboardContent {
+        display: flex;
+        align-items: center;
+
+        .profilePic {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+            border: 1px solid #666;
+        }
+    }
+
+    .modalcontent {
+        h4 {
+            font-size: 16px;
+            font-style: normal;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #169BD5;
+            color: #FFF;
+            padding: 5px 10px; 
+        }
+    }
+}   

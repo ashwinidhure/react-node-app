@@ -1,0 +1,31 @@
+.about_container {
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        color: #000;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .placeholderImg {
+        width: 240px;
+        height: 140px;
+        margin-right: 20px;
+    }
+
+    .aboutForm {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+    }
+
+    .reusableSection {
+        margin-top: 25px;
+    }
+}
